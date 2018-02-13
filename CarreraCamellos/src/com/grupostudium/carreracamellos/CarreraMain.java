@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 
 public class CarreraMain{
 	
-	static final int DISTANCIA_META = 40;
+	static final int DISTANCIA_META = 30;
     private List<Camello> camellos = new ArrayList<Camello>();
     private ExecutorService exec = Executors.newCachedThreadPool();
     private CyclicBarrier barrier;
